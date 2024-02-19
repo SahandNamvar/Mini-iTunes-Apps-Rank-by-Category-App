@@ -179,6 +179,70 @@ public class DataServices {
             this.url = url;
         }
 
+        public ArrayList<String> getGenres() {
+            return genres;
+        }
+
+        public void setGenres(ArrayList<String> genres) {
+            this.genres = genres;
+        }
+
+        public String getId() {
+            return id;
+        }
+
+        public void setId(String id) {
+            this.id = id;
+        }
+
+        public String getArtistId() {
+            return artistId;
+        }
+
+        public void setArtistId(String artistId) {
+            this.artistId = artistId;
+        }
+
+        public String getArtistName() {
+            return artistName;
+        }
+
+        public void setArtistName(String artistName) {
+            this.artistName = artistName;
+        }
+
+        public String getArtworkUrl100() {
+            return artworkUrl100;
+        }
+
+        public void setArtworkUrl100(String artworkUrl100) {
+            this.artworkUrl100 = artworkUrl100;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getReleaseDate() {
+            return releaseDate;
+        }
+
+        public void setReleaseDate(String releaseDate) {
+            this.releaseDate = releaseDate;
+        }
+
+        public String getUrl() {
+            return url;
+        }
+
+        public void setUrl(String url) {
+            this.url = url;
+        }
+
         @Override
         public String toString() {
             return "App{" +
